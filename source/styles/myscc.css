@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    font-family: Montserrat, serif;
+    background: linear-gradient(90deg, #4545c2 0%, #7b7676 100%, #152025 100%);
+}
+
+p {
+    color: aquamarine;
+}
+
+.sign {
+    display: flex;
+    background: grey;
+    color: aquamarine;
+    justify-content: space-between;
+}
+
+.sign>p {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.sign>h2 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(183, 171, 171);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: grey;
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(90deg, #4545c2 0%, #7b7676 100%, #152025 100%)
+}
+
+.card {
+    background: white;
+}
+
+.card-body.btn-primary {
+    margin: 0 auto;
+    display: block;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.card-text {
+    color: black;
+}
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+    align-items: center;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background: black;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
